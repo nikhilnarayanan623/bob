@@ -30,7 +30,6 @@
 			"relationship": [
 				{
 					"Name": "videos.videos_sponsor_id_fkey",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "sponsors",
@@ -85,7 +84,6 @@
 			"relationship": [
 				{
 					"Name": "video_tags.video_tags_tag_id_fkeyvideo_tags.video_tags_video_id_fkey",
-					"ByJoinTable": true,
 					"Sides": [
 						{
 							"From": "tags",
@@ -4512,7 +4510,6 @@
 			"relationship": [
 				{
 					"Name": "users.users_parent_id_fkey",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "users",
@@ -4537,7 +4534,6 @@
 				},
 				{
 					"Name": "users.users_parent_id_fkey__self_join_reverse",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "users",
@@ -4562,7 +4558,6 @@
 				},
 				{
 					"Name": "users.users_party_id_fkey",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "users",
@@ -4587,7 +4582,6 @@
 				},
 				{
 					"Name": "users.users_party_id_fkey__self_join_reverse",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "users",
@@ -4612,7 +4606,6 @@
 				},
 				{
 					"Name": "users.users_referrer_fkey",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "users",
@@ -4637,7 +4630,6 @@
 				},
 				{
 					"Name": "users.users_referrer_fkey__self_join_reverse",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "users",
@@ -4662,7 +4654,6 @@
 				},
 				{
 					"Name": "videos.videos_user_id_fkey",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "users",
@@ -4751,7 +4742,6 @@
 			"relationship": [
 				{
 					"Name": "video_tags.video_tags_tag_id_fkey",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "video_tags",
@@ -4776,7 +4766,6 @@
 				},
 				{
 					"Name": "video_tags.video_tags_video_id_fkey",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "video_tags",
@@ -4883,7 +4872,6 @@
 			"relationship": [
 				{
 					"Name": "video_tags.video_tags_tag_id_fkeyvideo_tags.video_tags_video_id_fkey",
-					"ByJoinTable": true,
 					"Sides": [
 						{
 							"From": "videos",
@@ -4924,7 +4912,6 @@
 				},
 				{
 					"Name": "videos.videos_sponsor_id_fkey",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "videos",
@@ -4949,7 +4936,6 @@
 				},
 				{
 					"Name": "videos.videos_user_id_fkey",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "videos",

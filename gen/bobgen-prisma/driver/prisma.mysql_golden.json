@@ -30,7 +30,6 @@
 			"relationship": [
 				{
 					"Name": "sponsorsTovideos",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "sponsors",
@@ -85,7 +84,6 @@
 			"relationship": [
 				{
 					"Name": "tagsTovideo_tagsvideo_tagsTovideos",
-					"ByJoinTable": true,
 					"Sides": [
 						{
 							"From": "tags",
@@ -1894,7 +1892,6 @@
 			"relationship": [
 				{
 					"Name": "usersTovideos",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "users",
@@ -1983,7 +1980,6 @@
 			"relationship": [
 				{
 					"Name": "tagsTovideo_tags",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "video_tags",
@@ -2008,7 +2004,6 @@
 				},
 				{
 					"Name": "video_tagsTovideos",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "video_tags",
@@ -2115,7 +2110,6 @@
 			"relationship": [
 				{
 					"Name": "tagsTovideo_tagsvideo_tagsTovideos",
-					"ByJoinTable": true,
 					"Sides": [
 						{
 							"From": "videos",
@@ -2156,7 +2150,6 @@
 				},
 				{
 					"Name": "sponsorsTovideos",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "videos",
@@ -2181,7 +2174,6 @@
 				},
 				{
 					"Name": "usersTovideos",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "videos",

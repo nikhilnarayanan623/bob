@@ -30,7 +30,6 @@
 			"relationship": [
 				{
 					"Name": "fk_videos_0",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "sponsors",
@@ -85,7 +84,6 @@
 			"relationship": [
 				{
 					"Name": "fk_video_tags_0fk_video_tags_1",
-					"ByJoinTable": true,
 					"Sides": [
 						{
 							"From": "tags",
@@ -2292,7 +2290,6 @@
 			"relationship": [
 				{
 					"Name": "fk_videos_1",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "users",
@@ -2381,7 +2378,6 @@
 			"relationship": [
 				{
 					"Name": "fk_video_tags_0",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "video_tags",
@@ -2406,7 +2402,6 @@
 				},
 				{
 					"Name": "fk_video_tags_1",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "video_tags",
@@ -2513,7 +2508,6 @@
 			"relationship": [
 				{
 					"Name": "fk_video_tags_0fk_video_tags_1",
-					"ByJoinTable": true,
 					"Sides": [
 						{
 							"From": "videos",
@@ -2554,7 +2548,6 @@
 				},
 				{
 					"Name": "fk_videos_0",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "videos",
@@ -2579,7 +2572,6 @@
 				},
 				{
 					"Name": "fk_videos_1",
-					"ByJoinTable": false,
 					"Sides": [
 						{
 							"From": "videos",
