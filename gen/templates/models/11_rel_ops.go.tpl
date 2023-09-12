@@ -213,11 +213,6 @@
     return nil
   }
 
-  {{if or $rel.ByJoinTable $rel.IsRemovable -}}
-  func (o *{{$tAlias.UpSingular}}) Remove{{$relAlias}}(ctx context.Context, exec bob.Executor, related ...*{{$ftable.UpSingular}}) {
-  }
-
-  {{end -}}
 {{else -}}
   func ({{$from}} *{{$tAlias.UpSingular}}) Insert{{$relAlias}}(ctx context.Context, exec bob.Executor,{{relDependenciesPos $.Aliases $rel}} related ...*{{$ftable.UpSingular}}Setter) error {
     if len(related) == 0 {

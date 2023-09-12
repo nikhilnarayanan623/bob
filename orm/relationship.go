@@ -40,9 +40,8 @@ type RelSide struct {
 }
 
 type Relationship struct {
-	Name        string    `yaml:"name"`
-	ByJoinTable bool      `yaml:"by_join_table"`
-	Sides       []RelSide `yaml:"sides"`
+	Name  string    `yaml:"name"`
+	Sides []RelSide `yaml:"sides"`
 
 	// These can be set through user configuration
 	Ignored bool

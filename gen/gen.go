@@ -466,10 +466,9 @@ func flipRelationships(config *Config, tables []drivers.Table) {
 func flipRelationship(r orm.Relationship, tables []drivers.Table) orm.Relationship {
 	sideLen := len(r.Sides)
 	flipped := orm.Relationship{
-		Name:        r.Name,
-		ByJoinTable: r.ByJoinTable,
-		Ignored:     r.Ignored,
-		Sides:       make([]orm.RelSide, sideLen),
+		Name:    r.Name,
+		Ignored: r.Ignored,
+		Sides:   make([]orm.RelSide, sideLen),
 	}
 
 	for i, side := range r.Sides {
